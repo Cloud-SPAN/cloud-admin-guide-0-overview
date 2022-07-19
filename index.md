@@ -40,7 +40,7 @@ The two main reasons for our script-based approach are (1) the steep learning cu
 
 | Lesson                     | Overview |
 | -------------------------- | ---------|
-| [Setting Work Environments](https://cloud-span.github.io/cloud-admin-guide-1-setting-work-environments/) | Learn how to set up your working environment, your AWS account and your shell terminal configuration, to be able to run the scripts. (UNDER CONSTRUCTION)|
-| [Managing AWS Instances](https://cloud-span.github.io/cloud-admin-guide-2-managing-aws-instances/) | Learn some best practices to deploy and manage AWS instances for a course, for testing software configurations, for creating new AMIs. (UNDER CONSTRUCTION) |
+| [Setting the work environment](https://cloud-span.github.io/cloud-admin-guide-1-setting-work-environments/) | Learn how to set up your working environment, your AWS account and your shell terminal configuration, to be able to run the scripts. (UNDER CONSTRUCTION)|
+| [Managing AWS instances](https://cloud-span.github.io/cloud-admin-guide-2-managing-aws-instances/) | Learn some best practices to deploy and manage AWS instances for a course, for testing software configurations, for creating new AMIs. (UNDER CONSTRUCTION) |
 | [Managing AMIs, Scripts, etc](https://cloud-span.github.io/cloud-admin-guide-3-managing-amis-scripts-etc/) |  Learn the blurry bits of the scripts, how to control changes to the scripts with GitHub, the Cloud-SPAN AMIs, when and how to create and control AMI versions, updating an AMI Linux and software tools, and more. (UNDER CONSTRUCTION) |
 
