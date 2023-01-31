@@ -1,6 +1,6 @@
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) 
 
-# Create Your Own AWS Instance Overview
+# Automated Management of AWS Instances Overview
 
 This module teaches how to manage Amazon Web Services (AWS) instances — each instance being a Linux virtual machine. Using Bash Shell scripts, it is shown how to configure, create, stop, start, and delete, one or multiple instances with a single invocation of a script.
 
