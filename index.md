@@ -13,7 +13,7 @@ bioschemas:
   author: ["Jorge Buenabad-Chavez", "Emma Rand", "Sarah Forrester", "Annabel Cansdale", "Evelyn Greeves"]
   contributor: ["James Chong", "Emma Barnes", "University of York", "Software Sustainability Institute"]
   educationalLevel: "Advanced"
-  identifier: tbc
+  identifier:
   name: "Cloud-SPAN: Automated Management of AWS Instances"
   url: "https://cloud-span.github.io/cloud-admin-guide-0-overview/"
   inLanguage: "en"
