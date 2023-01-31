@@ -1,4 +1,26 @@
 ---
+bioschemas:
+  "@context": "https://schema.org"
+  "@type": "LearningResource"
+  "@id": "https://cloud-span.github.io/cloud-admin-guide-0-overview/"
+  "http://purl.org/dc/terms/conformsTo":
+  - "@type": CreativeWork
+    "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE"
+  about:
+  - "@id": "http://edamontology.org/topic_3372"
+  - "@id": "http://edamontology.org/topic_0769"
+  abstract: "This course teaches how to automatically manage multiple Amazon Web Services (AWS) instances — each instance being a Linux virtual machine. Using Bash Shell scripts, it is shown how to create, stop, start and delete one or multiple instances with a single invocation of a script. The target audience of the course is anyone in charge of, or interested in, deploying and managing cloud resources. While the course is focused on AWS, and particularly Elactic Compute Cloud (EC2) instances, the scripts can be adapted for use with other cloud providers and other types of cloud services."
+  author: ["Jorge Buenabad-Chavez", "Emma Rand", "Sarah Forrester", "Annabel Cansdale", "Evelyn Greeves"]
+  contributor: ["James Chong", "Emma Barnes", "University of York", "Software Sustainability Institute"]
+  educationalLevel: "Advanced"
+  identifier: tbc
+  name: "Cloud-SPAN: Automated Management of AWS Instances"
+  url: "https://cloud-span.github.io/cloud-admin-guide-0-overview/"
+  inLanguage: "en"
+  keywords: "cloud computing, AWS,  HPC, shell, command line tools, linux, elastic cloud compute"
+  license: CC-BY 4.0
+  timeRequired: "PT8H"
+  mentions: ["Git for Windows", "Cloud-SPAN Genomics course", "Data Carpentries Genomics workshop"]
 ---
 <h3 align="center">a Cloud-SPAN course</h3>
 
