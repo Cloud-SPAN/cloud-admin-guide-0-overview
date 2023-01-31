@@ -1,6 +1,6 @@
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7589272.svg)](https://doi.org/10.5281/zenodo.7589272)
 
-# Automated Management of AWS Instances Overview
+# Cloud Admin Guide Overview
 
 This module teaches how to manage Amazon Web Services (AWS) instances — each instance being a Linux virtual machine. Using Bash Shell scripts, it is shown how to configure, create, stop, start, and delete, one or multiple instances with a single invocation of a script.
 
