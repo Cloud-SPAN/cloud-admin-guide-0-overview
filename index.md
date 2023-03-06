@@ -8,9 +8,9 @@ This course teaches how to automatically manage multiple Amazon Web Services (AW
 
 We use the scripts to manage multiple instances within the Cloud-SPAN project for hands-on training purposes. When running a workshop, a number of instances is created with relevant 'omics data and software analysis tools that are relevant to the workshop. Each student is granted exclusive access to one instance through the use of an encrypted login key. 
 
-The scripts receive as input only the names of the instances to create, delete, etc. Login keys, IP addresses, and domain names used by instances are created on demand on creating the instances, and deleted likewise on deleting the instances. Creating over 30 instances takes 10-15 minutes.
+The create, delete or manage instances, the scripts require only the names of the instances. Login keys, IP addresses, and domain names used are created or deleted automatically. Creating over 30 instances takes 10-15 minutes.
 
-The target audience of the course is anyone in charge of, or interested in, deploying and managing cloud resources. While the course is focused on AWS, and particularly Elactic Compute Cloud (EC2) instances, the scripts can be adapted for use with other cloud providers and other types of cloud services.
+The target audience of the course is anyone interested in deploying and managing cloud resources for training. While the course is focused on AWS, and particularly Elastic Compute Cloud (EC2) instances, the scripts can be adapted for use with other cloud providers and other types of cloud services.
 
 The course is designed for 4-6 hours of self-study.
 
