@@ -40,7 +40,7 @@ The course is designed for 4-6 hours of self-study, depending on the number of r
 >
 > The course assumes that learners have **no** prior experience with the AWS concepts and tools covered in the course.
 >
-> However, learners are expected to have experience with both the Linux terminal /command line interface (CLI) and Bash shell programming. Instructions are also provided to install and configure the Git Bash terminal on Windows computers and Mac terminals running the Bash shell or the Zsh shell.
+> However, learners are expected to have experience with both the Linux terminal /command line interface (CLI) and Bash shell programming. **Windows** and **Mac** users need to follow the instructions in the [Setup](../setup) section to install and configure the Git Bash terminal (Windows users) or to install or update the Bash shell (Mac users).
 >
 > Learners are also expected to use a laptop or destop computer. Tablets and mobile phones are not suitable for taking the course, as you will be using the keyboard to type commands to the terminal or to edit text files.
 >
