@@ -46,7 +46,7 @@ The course is designed for 4-6 hours of self-study, depending on the number of r
 >
 {: .prereq}
 
-## Background
+# Background
 "*Cloud computing is the on-demand availability \[through the Internet\] of computer system resources \[such as\] data storage and computing power ... \[that\] relies on a "pay-as-you-go" model ..."\[[Wikipedia](https://en.wikipedia.org/wiki/Cloud_computing)\].* That means that we can **rent** as many computing resources as we need, whenever we need them, and pay only for the time we use them. 
 
 The main advantage of Cloud computing is that we don't have to commit too much time and money in managing the IT resources needed to try out a new idea or experiment. Or as is the case of the Cloud-SPAN and similar projects, running hands-on training workshops by providing a properly configured instance (virtual machine) to each participant without having to handle nor invest in hardware resources nor physical space. Instead, an instance in the cloud is first configured with all the data and software tools required by a workshop. This instance is then configured as a template, or Amazon Machine Image (AMI) in AWS terminology. Finally, a number of instances is created from the AMI and configured individually as to domain name, IP address and access login key. Once the course is over, the instances are deleted to stop incurring costs. The AMI is typically preserved to serve as the starting point either (1) to create new instances for a new run of the workshop, or (2) to create a new AMI with updated data or software or both, through creating an instance, updating the data or software, and creating an AMI out of the instance.
@@ -57,7 +57,35 @@ Despite such convenience, managing multiple instances through a Graphical User I
 
 | Lesson                     | Overview |
 | -------------------------- | ---------|
-| [Setting Up Your Cloud and Terminal Environments](https://cloud-span.github.io/cloud-admin-guide-1-setting-work-environments/) | Learn how to set up your AWS account and your Linux environment to run the scripts.|
-| [Managing AWS Instances](https://cloud-span.github.io/cloud-admin-guide-2-managing-aws-instances/) | Learn how to configure your AWS account and the scripts to deploy and manage AWS instances for a workshop, how to create new AMIs, and the workings of the scripts. |
+| 1. [Setting Up Your Cloud and Terminal Environments](https://cloud-span.github.io/cloud-admin-guide-1-setting-work-environments/) | Learn how to create and configure your AWS account for daily work, and how to install and configure the scripts in your Terminal environment to use your AWS account.|
+| 2. [Managing AWS Instances](https://cloud-span.github.io/cloud-admin-guide-2-managing-aws-instances/) | Learn how to configure your AWS account to provide AWS instances with access based on domain names and login keys, how to run the scripts to deploy and manage AWS instances for a workshop, how to create and manage AMIs, and the organisation and workings of the scripts. |
 
+# Workshops Organisation
+Online and in-person workshops of this course are focused on the **configuration** and **use** of the scripts, covering **only** the episodes indicated below:
 
+Lesson 1: Setting Up Your Cloud and Terminal Environments:\
+1.1. Create Your AWS Account\
+1.2. Configure Your AWS Account\
+1.3. Configure Your Terminal Environment  --- **workshop**\
+1.4. Configure Your AWS CloudShell Environment
+
+Lesson 2: Managing AWS Instances:\
+2.1. Configure Instances Internet Access\
+2.2. Instances Management Tasks Using the Scripts --- **workshop**\
+2.3. AMIs Management     --- **workshop**\
+2.4. The Scripts Design  --- **workshop**
+
+### Attending a workshop with no AWS account
+You can attend a workshop without having to create and configure an AWS account (Episodes 1.1 and 1.2). However, as an AWS account is needed to create and manage AWS instances with the scripts, as attendee of a workshop, an AWS Linux instance will be made available to you (at no cost by the Cloud-SPAN team) wherein you will **configure** the terminal environment (Episode 1.3) and **run** the scripts (to create and manage AWS instances) **using** the **Cloud-SPAN AWS account** (which is already configured as to those aspects covered in Episode 2.1). To login to your Linux instance you will use the `ssh` program --- and hence **Windows users** need to install Git Bash prior to the workshop as that will also install `ssh`, see the [Setup](../setup) section. You will receive instructions to login to your Linux instance at the worshop.
+
+### Attending a workshop using your AWS account
+You can attend a workshop and use **your AWS account** (or the AWS account of your institution) to configure and run the scripts. In this case, you need to **complete** the following episodes **before** the workshop (contact the [Cloud-SPAN team](https://cloud-span.york.ac.uk/contact) if you need assistance):
+
+1.1. Create Your AWS Account\
+1.2. Configure Your AWS Account\
+2.1. Configure Instances Internet Access
+
+At the workshop, you can configure and run the scripts (to use your AWS account) using either a (Windows) Git Bash terminal, a Linux terminal, a Mac terminal or the AWS CloudShell, see details in these episodes:
+
+1.3. Configure Your Terminal Environment --- Git Bash, Linux and Mac terminals\
+1.4. Configure Your AWS CloudShell Environment
