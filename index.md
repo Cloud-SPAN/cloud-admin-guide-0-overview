@@ -30,7 +30,7 @@ This course teaches how to automatically manage multiple Amazon Web Services (AW
 
 We use the scripts to manage multiple instances for training. When running a workshop, instances are created with 'omics data and software required for the workshop. Each student is granted exclusive access to one instance through the use of an encrypted login key. 
 
-To create, configure, .. or delete instances, the scripts require only the names of the instances. Login keys, IP addresses, and domain names used by the instances are created or deleted automatically. Creating over 30 instances takes 10-15 minutes.
+To create, configure, .. or delete instances, the scripts require only the names of the instances. The login keys, IP addresses, and domain names used by the instances are created or deleted automatically. Creating over 30 instances takes 10-15 minutes.
 
 The target audience of the course is anyone interested in deploying and managing cloud resources for training. While the course is focused on AWS, and particularly Elastic Compute Cloud (EC2) instances, the scripts can be adapted for use with other cloud providers and other types of cloud services.
 
@@ -40,7 +40,7 @@ The course is designed for 4-6 hours of self-study, depending on the number of r
 >
 > The course assumes that learners have **no** prior experience with the AWS concepts and tools covered in the course.
 >
-> However, learners are expected to have experience with both the Linux terminal /command line interface (CLI) and Bash shell programming. **Windows** and **Mac** users need to follow the instructions in the [Setup](../setup) section to install and configure the Git Bash terminal (Windows users) or to install or update the Bash shell (Mac users).
+> However, learners are expected to have experience with both the Linux/Unix **terminal** and **Bash shell programming** --- the terminal is also known as the **shell** and the **command line interface** or CLI. **Windows users** need to install and configure the Git Bash terminal and **Mac users** need to install or update the Bash shell as instructed in the [Setup](../setup) section; see also the [Workshops Organisation](#workshops-organisation) below.
 >
 > Learners are also expected to use a laptop or destop computer. Tablets and mobile phones are not suitable for taking the course, as you will be using the keyboard to type commands to the terminal or to edit text files.
 >
