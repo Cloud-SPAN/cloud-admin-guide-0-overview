@@ -40,7 +40,7 @@ The course is designed for 4-6 hours of self-study, depending on the number of r
 >
 > The course assumes that learners have **no** prior experience with the AWS concepts and tools covered in the course.
 >
-> However, learners are expected to have experience with both the Linux/Unix **terminal** and **Bash shell programming** --- the terminal is also known as the **shell** and the **command line interface** or CLI. **Windows users** need to install and configure the Git Bash terminal and **Mac users** need to install or update the Bash shell as instructed in the [Setup](../setup) section; see also the [Workshops Organisation](#workshops-organisation) below.
+> However, learners are expected to have experience with both the Linux/Unix **terminal** and **Bash shell programming** --- the terminal is also known as the **shell** and the **command line interface** or CLI. **Windows users** need to install and configure the Git Bash terminal and **Mac users** need to install or update the Bash shell as instructed in the [Setup](./setup) section; see also the [Workshops Organisation](#workshops-organisation) below.
 >
 > Learners are also expected to use a laptop or destop computer. Tablets and mobile phones are not suitable for taking the course, as you will be using the keyboard to type commands to the terminal or to edit text files.
 >
@@ -76,7 +76,7 @@ Lesson 2: Managing AWS Instances:\
 2.4. The Scripts Design  --- **workshop**
 
 ### Attending a workshop with no AWS account --- using a Cloud-SPAN AWS account
-You can attend a workshop without having to create and configure an AWS account (Episodes 1.1 and 1.2). However, as an AWS account is needed to create and manage AWS instances with the scripts, as a workshop attendee, an AWS Linux instance will be made available to you (at no cost by the Cloud-SPAN team) wherein you will **configure** the terminal environment (Episode 1.3) and **run** the scripts (to create and manage AWS instances) **using** a **Cloud-SPAN AWS account** (which is already configured as to those aspects covered in Episode 2.1). To login to your Linux instance you will use the (secure shell) `ssh` program, and hence, prior to the workshop you need have installed `ssh` on your (Linux or Mac) computer -- **Windows users** can install Git Bash as that will also install `ssh` on their computer, see the [Setup](../setup) section. You will receive instructions to login to your Linux instance at the worshop.
+You can attend a workshop without having to create and configure an AWS account (Episodes 1.1 and 1.2). However, as an AWS account is needed to create and manage AWS instances with the scripts, as a workshop attendee, an AWS Linux instance will be made available to you (at no cost by the Cloud-SPAN team) wherein you will **configure** the terminal environment (Episode 1.3) and **run** the scripts (to create and manage AWS instances) **using** a **Cloud-SPAN AWS account** (which is already configured as to those aspects covered in Episode 2.1). To login to your Linux instance you will use the (secure shell) `ssh` program, and hence, prior to the workshop you need have installed `ssh` on your (Linux or Mac) computer -- **Windows users** can install Git Bash as that will also install `ssh` on their computer, see the [Setup](./setup) section. You will receive instructions to login to your Linux instance at the worshop.
 
 ### Attending a workshop using your AWS account
 You can attend a workshop and use **your AWS account** (or the AWS account of your institution) to configure and run the scripts. You need to **complete** the following episodes **before** the workshop (contact the [Cloud-SPAN team](https://cloud-span.york.ac.uk/contact) if you need assistance):
@@ -85,7 +85,7 @@ You can attend a workshop and use **your AWS account** (or the AWS account of yo
 1.2. Configure Your AWS Account\
 2.1. Configure Instances Internet Access
 
-At the workshop, you will configure the scripts to use your AWS account and run the scripts on your computer, which you can do using either a Git Bash terminal, a Linux terminal, a Mac terminal or the AWS CloudShell terminal. **Windows users** need to install Git Bash and **Mac users** need to install or update the Bash shell on their computer prior to the workshop, see details in the [Setup](../setup) section, the introduction to Lesson 1, [Setting Up Your Cloud and Terminal Environments](https://cloud-span.github.io/cloud-admin-guide-1-setting-work-environments/), and in these episodes:
+At the workshop, you will configure the scripts to use your AWS account and run the scripts on your computer, which you can do using either a Git Bash terminal, a Linux terminal, a Mac terminal or the AWS CloudShell terminal. **Windows users** need to install Git Bash and **Mac users** need to install or update the Bash shell on their computer prior to the workshop, see details in the [Setup](./setup) section, the introduction to Lesson 1, [Setting Up Your Cloud and Terminal Environments](https://cloud-span.github.io/cloud-admin-guide-1-setting-work-environments/), and in these episodes:
 
 1.3. Configure Your Terminal Environment --- Git Bash, Linux and Mac terminals\
 1.4. Configure Your AWS CloudShell Environment
